@@ -7,7 +7,7 @@
 var numeroMinato;
 var numeriMinati = [];
 var i;
-var x = numeriMinati.length;
+var x;
 var counter;
 
 for(i = 0; i < 16; i++){
@@ -28,4 +28,8 @@ for(i = 0; i < 16; i++){
         numeriMinati[i] = numeroMinato;
     }
     x--;
+}
+
+for (var i = 0; i < numeriMinati.length; i++) {
+    console.log(numeriMinati[i]);
 }
